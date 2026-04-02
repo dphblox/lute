@@ -1,5 +1,5 @@
-local test = require("@std/test")
 local task = require("@lute/task")
+local test = require("@std/test")
 
 test.suite("LuteTaskSuite", function(suite)
 	suite:case("simpleTaskWait", function(assert)

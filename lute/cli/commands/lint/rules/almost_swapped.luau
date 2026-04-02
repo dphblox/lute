@@ -1,9 +1,9 @@
 local lintTypes = require("../types")
 local path = require("@std/path")
+local printer = require("@std/syntax/printer")
 local query = require("@std/syntax/query")
 local stringext = require("@std/stringext")
 local syntax = require("@std/syntax")
-local printer = require("@std/syntax/printer")
 local utils = require("@std/syntax/utils")
 
 local name = "almost_swapped"

@@ -1,5 +1,5 @@
-local syntax = require("@std/syntax")
 local query = require("@std/syntax/query")
+local syntax = require("@std/syntax")
 local utils = require("@std/syntax/utils")
 
 local ast = syntax.parseExpr("require(OldComponent)")

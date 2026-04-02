@@ -1,6 +1,6 @@
+local pathinterface = require("./pathinterface")
 local process = require("@lute/process")
 local win32types = require("@self/types")
-local pathinterface = require("./pathinterface")
 
 export type PathKind = win32types.PathKind
 export type Path = win32types.Path

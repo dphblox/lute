@@ -1,6 +1,6 @@
-local types = require("./types")
 local parseIgnores = require("../lib/parseIgnores")
 local path = require("@std/path")
+local types = require("./types")
 
 export type RuleConfig = {
 	ignores: { string }?,

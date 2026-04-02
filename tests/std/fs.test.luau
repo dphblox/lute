@@ -2,8 +2,8 @@ local failure = require("@std/test/failure")
 local fs = require("@std/fs")
 local path = require("@std/path")
 local system = require("@std/system")
-local test = require("@std/test")
 local task = require("@lute/task")
+local test = require("@std/test")
 
 local tmpdir = system.tmpdir()
 

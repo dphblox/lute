@@ -1,9 +1,9 @@
 local cli = require("@batteries/cli")
+local difftext = require("@batteries/difftext")
 local fs = require("@std/fs")
 local path = require("@std/path")
 local process = require("@std/process")
 local tbl = require("@std/tableext")
-local difftext = require("@batteries/difftext")
 
 local FAILLIST_PATH = "tools/check-faillist.txt"
 

@@ -1,9 +1,9 @@
 local cli = require("@batteries/cli")
 local definitions = require("@self/generated/definitions")
 local fs = require("@std/fs")
+local json = require("@std/json")
 local path = require("@std/path")
 local process = require("@std/process")
-local json = require("@std/json")
 local typedefs = require("./lib/typedefs")
 
 local BASE_PATH = typedefs.TYPEDEFS_PATH

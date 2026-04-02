@@ -1,5 +1,5 @@
-local vm = require("@lute/vm")
 local task = require("@std/task")
+local vm = require("@lute/vm")
 
 local threadCount = 8
 

@@ -1,11 +1,11 @@
 local fs = require("@std/fs")
+local parser = require("@std/syntax/parser")
 local path = require("@std/path")
+local printer = require("@std/syntax/printer")
 local strext = require("@std/stringext")
+local syntax = require("@std/syntax")
 local test = require("@std/test")
 local testTypes = require("@std/test/types")
-local parser = require("@std/syntax/parser")
-local printer = require("@std/syntax/printer")
-local syntax = require("@std/syntax")
 
 local function assertEqualsLocation(
 	assert: testTypes.Asserts,

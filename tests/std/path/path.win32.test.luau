@@ -1,6 +1,6 @@
+local process = require("@std/process")
 local system = require("@std/system")
 local test = require("@std/test")
-local process = require("@std/process")
 
 local path = require("@std/path")
 local win32 = require("@std/path/win32")

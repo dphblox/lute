@@ -1,10 +1,12 @@
 local cli = require("@batteries/cli")
+local configUtils = require("@self/configutils")
 local files = require("./lib/files")
 local fs = require("@std/fs")
-local json = require("@std/json")
 local internalTypes = require("@self/internaltypes")
+local json = require("@std/json")
 local lsp = require("@self/lsp")
 local luau = require("@std/luau")
+local parseIgnores = require("./lib/parseIgnores")
 local pathLib = require("@std/path")
 local printer = require("@self/printer")
 local process = require("@std/process")
@@ -13,8 +15,6 @@ local tableext = require("@std/tableext")
 local triviaUtils = require("@std/syntax/utils/trivia")
 local types = require("@self/types")
 local visitor = require("@std/syntax/visitor")
-local configUtils = require("@self/configutils")
-local parseIgnores = require("./lib/parseIgnores")
 
 local DEFAULT_RULES = {
 	"almost_swapped",

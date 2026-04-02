@@ -1,7 +1,7 @@
-local resolution = require("../resolver/resolution")
 local loomTypes = require("../loomtypes")
-local projectManifest = require("../manifest/projectmanifest")
 local pp = require("../../extern/pp")
+local projectManifest = require("../manifest/projectmanifest")
+local resolution = require("../resolver/resolution")
 
 local fsUtils = require("../utils/fsutils")
 local luau = require("@std/luau")

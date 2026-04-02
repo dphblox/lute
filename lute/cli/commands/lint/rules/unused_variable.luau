@@ -1,8 +1,8 @@
 local lintTypes = require("../types")
 local path = require("@std/path")
 local syntax = require("@std/syntax")
-local utils = require("@std/syntax/utils")
 local tableext = require("@std/tableext")
+local utils = require("@std/syntax/utils")
 local visitorLib = require("@std/syntax/visitor")
 
 local name = "unused_variable"

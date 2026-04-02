@@ -4,9 +4,9 @@
 
 local types = require("@self/types")
 
+local ps = require("@std/process")
 local reporter = require("@self/reporter")
 local runner = require("@self/runner")
-local ps = require("@std/process")
 
 type Test = types.Test
 type TestCase = types.TestCase

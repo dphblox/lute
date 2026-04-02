@@ -1,8 +1,8 @@
-local rt = require("@batteries/richterm")
 local path = require("@std/path")
-local tys = require("@std/test/types")
-local snapty = require("./snap/types")
+local rt = require("@batteries/richterm")
 local snapsty = require("./snap/styles")
+local snapty = require("./snap/types")
+local tys = require("@std/test/types")
 
 local function splitStacktrace(stacktrace: string): { string }
 	local lines = {}

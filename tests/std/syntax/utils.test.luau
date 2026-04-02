@@ -1,6 +1,6 @@
-local test = require("@std/test")
-local syntax = require("@std/syntax")
 local query = require("@std/syntax/query")
+local syntax = require("@std/syntax")
+local test = require("@std/test")
 local utils = require("@std/syntax/utils")
 
 test.suite("Utils", function(suite)

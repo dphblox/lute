@@ -4,11 +4,11 @@ local _example = require("@example/option")
 -- print(`Required {example.file} from alias @example`)
 
 -- Entry point that requires other modules
-local utils = require("./utils")
 local lib = require("./lib/helper")
 local otherModule = require("./other/module")
-local process = require("@std/process")
 local path = require("@std/path")
+local process = require("@std/process")
+local utils = require("./utils")
 
 -- Use standard library to verify it works in compiled bundles
 local cwd = path.format(process.cwd())

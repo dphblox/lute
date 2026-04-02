@@ -1,5 +1,5 @@
-local types = require("@root/types")
 local tableext = require("@std/tableext")
+local types = require("@root/types")
 
 local testFilter: { [string]: number } = {
 	["a"] = 1,

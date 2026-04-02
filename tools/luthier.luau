@@ -1,10 +1,10 @@
 --!strict
 
+local cli = require("@batteries/cli")
 local crypto = require("@lute/crypto")
 local fs = require("@lute/fs")
 local process = require("@lute/process")
 local system = require("@lute/system")
-local cli = require("@batteries/cli")
 local toml = require("@batteries/toml")
 
 type Tune = {

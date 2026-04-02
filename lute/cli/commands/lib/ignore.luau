@@ -1,6 +1,6 @@
 local fs = require("@std/fs")
-local path = require("@std/path")
 local parseIgnores = require("./parseIgnores")
+local path = require("@std/path")
 local isIgnored = parseIgnores.isIgnored
 local parseGitignore = parseIgnores.parseGitignore
 

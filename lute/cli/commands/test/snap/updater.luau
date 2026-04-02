@@ -1,10 +1,10 @@
 local fs = require("@std/fs")
-local snapty = require("./types")
 local io = require("@std/io")
 local path = require("@std/path")
-local sty = require("./styles")
 local ps = require("@std/process")
+local snapty = require("./types")
 local strext = require("@std/stringext")
+local sty = require("./styles")
 
 -- Write content directly to a .snap artifact file.
 -- Used both for creating new snapshots and updating existing ones.

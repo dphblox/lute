@@ -1,5 +1,5 @@
-local package = require("./package")
 local lockfile = require("../lockfile/lockfile")
+local package = require("./package")
 local projectManifest = require("../manifest/projectmanifest")
 
 type Resolution = {

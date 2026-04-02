@@ -1,5 +1,5 @@
-local test = require("@std/test")
 local base64 = require("@batteries/base64")
+local test = require("@std/test")
 
 local function enc(s: string): string
 	return buffer.tostring(base64.encode(buffer.fromstring(s)))

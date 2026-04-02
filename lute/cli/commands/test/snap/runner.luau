@@ -1,9 +1,9 @@
-local process = require("@std/process")
-local path = require("@std/path")
-local fs = require("@std/fs")
 local difftext = require("@batteries/difftext")
-local strext = require("@std/stringext")
+local fs = require("@std/fs")
+local path = require("@std/path")
+local process = require("@std/process")
 local snapty = require("./types")
+local strext = require("@std/stringext")
 
 -- Derive the .snap artifact path from a .snap.luau file path.
 -- e.g. /foo/bar.snap.luau -> /foo/bar.snap

@@ -1,6 +1,6 @@
-local ps = require("@std/process")
 local fs = require("@std/fs")
 local path = require("@std/path")
+local ps = require("@std/process")
 local stringext = require("@std/stringext")
 
 local function istestfile(filename: string): boolean

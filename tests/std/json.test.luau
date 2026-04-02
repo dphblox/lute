@@ -1,9 +1,9 @@
-local fs = require("@std/fs")
-local path = require("@std/path")
-local test = require("@std/test")
-local json = require("@std/json")
-local stringext = require("@std/stringext")
 local failure = require("@std/test/failure")
+local fs = require("@std/fs")
+local json = require("@std/json")
+local path = require("@std/path")
+local stringext = require("@std/stringext")
+local test = require("@std/test")
 
 local suiteDir = "tests/std/JSONParsingTestSuite"
 

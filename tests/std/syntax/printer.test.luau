@@ -1,10 +1,10 @@
-local testtypes = require("@std/test/types")
 local printer = require("@std/syntax/printer")
 local query = require("@std/syntax/query")
 local syntax = require("@std/syntax")
 local syntaxTypes = require("@std/syntax/types")
 local syntaxUtils = require("@std/syntax/utils")
 local test = require("@std/test")
+local testtypes = require("@std/test/types")
 
 local function checkReplacement(
 	source: string,
